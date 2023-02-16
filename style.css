@@ -164,16 +164,24 @@
 
 /* DEKSTOP VERSION */
 @media (min-width: 992px) {
-  .navbar-bra5d {
+  .navbar-brand {
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-brand:hover {
+    color: #e8e8e8;
   }
 
   .nav-link {
     text-transform: uppercase;
     margin-right: 30px;
     color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 1px rgba(230, 220, 220, 0.7);
+  }
+
+  .nav-link:hover {
+    color: #e8e8e8;
   }
 
   .nav-link:hover::after {
